@@ -1,0 +1,48 @@
+.home{
+    display: flex;
+    background: url(laptop.png) no-repeat center;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.intro{
+    
+    font-size: 30px;
+    padding-top: 230px;
+    margin-left: 150px;
+}
+
+.hello{
+    font-size: 30px;
+}
+
+.bit-student{
+    font-size: 30px;
+}
+
+.hire-me{
+    padding: 15px 55px;
+    margin: 0px;
+    color: black;
+    background-color: white;
+    font-size: large;
+    font-family: aclonica;
+    transition: 0.3s;
+    border: none;
+    border-width: 3px;
+    border-radius: 15px;
+    text-decoration: none;
+    border-color: black;
+}
+
+.hire-me:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding: 17px 55px;
+    box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.162);
+}

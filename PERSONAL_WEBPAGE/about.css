@@ -1,0 +1,89 @@
+.about{
+    margin-top: 50px;
+    text-align: center ;
+    padding-bottom: 120px;
+}
+
+
+
+.heading{
+    padding-top: 70px;
+    
+}
+
+.joo-photo{
+    width: 360px;
+    height: 460px;
+    float:left;
+    margin: 80px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:black;
+    margin-top: 27px;
+    margin-left: 180px;
+    margin-right: 150px;
+}
+
+.about-mline{
+    font-size: 30px;
+    margin: 0px;
+    display: flex;
+    margin-top: 100px;
+    text-align: left;
+
+}
+.seeking{
+    margin-top: 20px;
+    text-align: left;
+    margin: 10px;
+    line-height: 30px;
+    display: -webkit-box;
+
+   
+}
+
+.why-to-hire{
+    font-size: 30px;
+    margin: 0px;
+    display: flex;
+    margin-top: 30px;
+    text-align: left;
+
+}
+
+.great-com{
+    margin-top: 20px;
+    text-align: left;
+    margin: 10px;
+    line-height: 30px;
+    display: -webkit-box;
+}
+
+.about-content{
+    margin-left: 200px;
+}
+
+.cv{
+    text-decoration: none;
+    margin-left: -620px;
+    border-style: solid ;
+    border-width: 5px;
+    border-color: black;
+    padding: 10px 30px;
+    background-color: black ;
+    color: white;
+    border-width: 3px;
+    border-radius: 15px;
+    transition: 0.25s;
+}
+
+.cv:hover{
+
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 12px 29px ;
+    box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.259);
+
+}

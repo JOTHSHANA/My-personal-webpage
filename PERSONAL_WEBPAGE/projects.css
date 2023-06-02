@@ -1,0 +1,84 @@
+.project-tpc{
+    margin-top: 0px;
+    padding-top:70px;
+    text-align: center;
+    padding-bottom: 0px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.projects{
+    background-color: #0a0a25;
+}
+
+.project-skill-con{
+    height:80vh;
+    
+    color:rgb(0, 2, 70);
+  }
+  
+  .project-con{
+    display: flex;
+    flex-direction: column;
+    row-gap:30px;
+    margin-left: 105%;
+  }
+  .project-title{
+    margin-left: 46%;
+    margin-top: 70px;
+    padding-bottom: 0px;
+    color:rgb(247, 250, 253);
+    
+    display: inline-block;
+
+  }
+  .main-cont-con{
+    background-color:rgb(247, 250, 253);
+    width:600px;
+    height:130px;
+    padding:20px;
+    border-radius: 5px;
+    transition: all 0.5s;
+    margin-top: 30px;
+    padding-bottom: 50px;
+  }
+  .main-cont-con:hover{
+    background-color: rgb(199, 241, 241);
+    background-image: linear-gradient(to bottom,rgb(199, 241, 241),rgb(195, 197, 255));
+    
+  }
+  .main-cont-con:hover .circle-img{
+    border:none;
+  }
+  .main-cont-con:active{
+    padding:10px;
+  }
+  
+  .img-title-con,.text-con,.main-cont-con{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .text-con
+  .project-content{
+    text-align: center;
+    margin-top: 2px;
+  }
+  
+  .circle-img{
+    width:100px;
+    height:100px;
+    border-radius:80px;
+    border:3px solid rgb(195, 197, 255);
+  }
+  
+  .title{
+    margin: 0;
+
+  }
+
+
+
+  

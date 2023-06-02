@@ -1,0 +1,29 @@
+.nav-button{
+    text-decoration: none;
+    color: black;
+    margin:0px;
+    padding: 15px;
+    transition: all 0.5s;
+}
+
+.nav-button:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+
+.nav-bar-con{
+    display: flex;
+    justify-content:space-between;
+    background-color: whitesmoke;
+    align-items: center;
+    padding:20px 8%;
+    position: fixed;
+    overflow: hidden;
+    width: 85%;
+    margin: 0px;
+}

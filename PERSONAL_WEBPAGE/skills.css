@@ -1,0 +1,158 @@
+.skill-tpc{
+    margin: 0px;
+    padding:0px;
+    text-align: center;
+    padding-top: 70px;
+    
+}
+
+.skill{
+    padding-bottom: 0px;
+    background: linear-gradient(to right, #cacaca31, #0000003e, #eeeeee4c);
+}
+
+.container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.skills{
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.a,.b,.c,.d,.e,.f{
+    font-size: 20px;
+}
+
+.skill h2{
+    font-weight: 400px;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: black;
+    font-size: 20px;
+}
+
+.progress-bar{
+    background: rgb(167, 167, 167);
+    height: 10px;
+    width: 600px;
+    border-radius: 5px;
+
+}
+.progress-bar div{
+    height: 10px;
+    width: 0%;
+    border-radius: 5px;
+    background: rgb(48, 31, 95);
+}
+
+.progress-bar div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background:#000000;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.html{
+    animation: html 1s linear forwards;
+}
+
+.css{
+    animation: css 1s linear forwards;
+}
+
+.javascript{
+    animation: javascript 1s linear forwards;
+}
+
+.q{
+    font-size: 15px;
+    animation: q 1s linear forwards;
+}
+
+.python{
+    animation: python 1s linear forwards;
+}
+
+.java{
+    animation: java 1s linear forwards;
+    
+}
+
+
+.html span{
+    border: 1px solid rgb(87, 87, 87) ;
+    
+}
+.css span{
+    border: 1px solid rgb(87, 87, 87) ;
+    
+}
+.javascript span{
+    border: 1px solid rgb(87, 87, 87) ;
+    
+}
+.q span{
+    border: 1px solid rgb(87, 87, 87) ;
+    
+}
+.python span{
+    border: 1px solid rgb(87, 87, 87) ;
+    
+}
+.java span{
+    border: 1px solid rgb(87, 87, 87) ;
+    
+}
+
+@keyframes html{
+    100%{
+        width: 85%;
+    }
+    
+}
+@keyframes css{
+    100%{
+        width: 80%;
+    }
+}
+@keyframes javascript{
+    100%{
+        width: 60%;
+    }
+}
+@keyframes q{
+    100%{
+        width: 80%;
+    }
+}
+@keyframes python{
+    100%{
+        width: 60%;
+    }
+}
+@keyframes java{
+    100%{
+        width: 50%;
+    }
+}
+
+
+
+
+
